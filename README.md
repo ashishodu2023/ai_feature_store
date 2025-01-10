@@ -20,7 +20,8 @@ curl -X POST "http://127.0.0.1:8000/store-features/" \
 
 
 ## Execution 
-(Execution)[https://github.com/ashishodu2023/ai_feature_store/blob/master/images/execution.png]
 
-(Big Table)[https://github.com/ashishodu2023/ai_feature_store/blob/master/images/bigtable.png]
+![Execution](https://github.com/ashishodu2023/ai_feature_store/blob/master/images/execution.png)
 
+
+![BigTable](https://github.com/ashishodu2023/ai_feature_store/blob/master/images/bigtable.png)
