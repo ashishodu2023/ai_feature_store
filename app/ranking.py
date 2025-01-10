@@ -1,6 +1,7 @@
-import pandas as pd
+from sklearn.ensemble import GradientBoostingClassifier
 
-# Generate feature importance rankings
-def generate_ranking(X, y, importances):
-    ranking = pd.DataFrame({'Feature': X.columns, 'Importance': importances})
-    return ranking.sort_values(by='Importance', ascending=False)
+def rank_features(X, y):
+    gbc = GradientBoostingClassifier()
+    gbc.fit(X, y)
+    feature_importances = gbc.feature_importances_
+    return pd.DataFrame({'Feature': X.columns, 'Importance': feature_importances}).sort_values(by='Importance', ascending=False)

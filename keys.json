@@ -1,0 +1,14 @@
+{
+    "type": "service_account",
+    "project_id": "gcp-practice-380107",
+    "private_key_id": "23b82fb738fbc8fbfd1cf8ad097edc76e0209baf",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCQAKsObwn6t66i\nlehCBuYh35vL2wEgvrK0ecUZzzT4llMomZ4KLNKklD5KmR7UPVZBpaL9O3GqHodh\nn0QxdeIV2Zn7U/vNhRstz96o4fJc0iXcUl9qKzssdxFmWR8R3eK+sOR98TfML1T7\npEjJTaxq6Xs0cwd1X/hHSNiRl05onkaPLU2KgZur/7m0aAWPow5sHjD0ebHMbcRp\nHvG2C+SI3U1iwtxg+9vG/uaqHikrpFXAtsz+krlok1BU/L9pkN0ecNdDUN4Y9W5O\n6FDiXdjLXtc0eOj9pYEqBsELwGfSWm3lDo/54moqvFcnt9ly2MEfAy4z82R4HI/n\n5NhINEoFAgMBAAECggEAMZTZUNXwpK+75GUjHCDN+hnIxc75O3INi9BlifZrMbBo\nn5EM9knqmRolvH+uOruHyICkdvaRs1ZhnL4+t5z0JDvRJdUL3P6YlhR9gL6TOVxu\nBsch7SdHb47rocbLyNYSLUAw3CBC6v3dD+vH1+/zjrgnYK6+ga5yiPDPCIoFSEW6\nbCDLQ18NO91JiAvn/oB6mrSvefT5rLMlpY+w4JYiPoCTaqVlxpT0Emtm7hxQXpNS\no4gvjn9ltHcCfxHIeN+S8H+aKshNk06uPy/AnTgQecBCxAxnjGo9+g+B1vU3K+xw\nm+dea9khhBoyzbzno0zds7lDgMWG+rC5aBCXPNrnnQKBgQDLV7YriF8LUyKOX01c\nYuIdyiO1s0cM+2rmTzbHEFsGOxf3e2QFOrNSTOwgmaceLBGJXl9FiolNEwZ0Vc8p\nIvjUJJgooP+gDig60bnIOeH2SYG8JfuaqAJX7GmE8KQgU4BaFZ9p0ocokCdZawM0\nWcJ/xgDZwZzOkH7cD/5BqN0UUwKBgQC1SxniQkat8nsQhTmEzzhYTSA5ZqdmQKAY\nE9Vf0W/lwA/8khqBMzVYXxbsB7zpUPdKPGUV2/3ZVqpPuezNB9gaODQpJPYJKuTH\n9mob02rExizJgVVAWSJM05bzZt8scowEiThfJgjAUyse41DlN7Z1QXf2sO2iwZRg\nNdwue0jdRwKBgQC/VpWQeQ4WNfA6T+sXl+R1a5QWkc+1o45/kOJWhklgn5J5yZ3g\nXdAHDWLTekIK3iTSQf8cDLQN1m0oYuZAKyxBUv3qnTRsg2XPkzFh+zVo7topFQSg\nDp/F5CuWcGnAEVKhcd9DUFrmDF86gLvPMvcWDFcYkFrg9I6qvFHfrun5CQKBgQCH\n23fSLoh44jWG889ez0sSIPn9Cgh4gAV5BaPo4jJQodVZGMPz/kQDrX6n8kSHM72d\nTBUUhH9+14tZo6LpIu+29ldgXepihFpd3zM1FwHz4+68MseIKUOi/w0n6fdkf5Kd\n85bi9sWoGqs9wmtk2pNI237ix0PNq/NdBf+ydYDtEQKBgCQvbYaUfVKa/FzoQZ/7\nq37fGFH5ZNsvEZQxUHGFc/AZOcvmm+SyRjYVHJ8OWDXoZvffdQ4mw9/uV4rVRjoo\nYesM7ibLYHkbUwkybani/guAA9RtyARGgwK13EOcafZM0QuXq68ZjedOCulgLJV+\nFgOuW9MmdCigcBM2l+3o34on\n-----END PRIVATE KEY-----\n",
+    "client_email": "feature-store-service-account@gcp-practice-380107.iam.gserviceaccount.com",
+    "client_id": "110595748313970108700",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/feature-store-service-account%40gcp-practice-380107.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+  

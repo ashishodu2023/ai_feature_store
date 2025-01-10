@@ -1,7 +1,6 @@
-torch
 fastapi
 uvicorn
+torch
 scikit-learn
 pandas
 google-cloud-bigtable
-prometheus-client

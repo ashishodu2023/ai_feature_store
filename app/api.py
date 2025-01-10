@@ -1,22 +1,31 @@
+# app/api.py
+
 from fastapi import FastAPI
+from app.models import rank_features
 from app.storage import store_features
-from pydantic import BaseModel
-from app.ranking import generate_ranking
+from app.schema import FeatureRequest
+from app.data_ingestion import load_data
+import pandas as pd
 
 app = FastAPI()
 
+# Load and preprocess data
+data = load_data()
+X, y = data.iloc[:, :-1], data['target']
+
 @app.get("/get-features/")
 def get_features():
-    # Example feature response
-    return {"features": ["sepal_length", "petal_length"]}
-
-# Define schema for incoming request data
-class FeatureRequest(BaseModel):
-    features: dict  # Expected: {"Feature Name": Importance Score}
+    """
+    Endpoint to return ranked features.
+    """
+    ranking = rank_features(X, y)
+    return {"features": ranking['Feature'].tolist()}
 
 @app.post("/store-features/")
 def store_features_endpoint(request: FeatureRequest):
-    # Store features in Bigtable
-    store_features("iris_features", pd.DataFrame(request.features.items(), columns=["Feature", "Importance"]))
+    """
+    Endpoint to store features in Google Bigtable.
+    """
+    feature_data = pd.DataFrame(request.features.items(), columns=["Feature", "Importance"])
+    store_features("iris_features", feature_data)
     return {"status": "success", "message": "Features stored successfully"}
-
