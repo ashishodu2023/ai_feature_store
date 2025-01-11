@@ -1,3 +1,16 @@
+Metadata-Version: 2.1
+Name: ai-feature-store
+Version: 1.0.2
+Summary: A package for feature engineering and scalable storage with Google Bigtable.
+Home-page: https://github.com/ashishodu2023/ai_feature_store
+Author: Ashish Verma
+Author-email: averm004@odu.edu
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
 # AI-Augmented Feature Store
 
 ## Concept
@@ -95,39 +108,7 @@ An AI-Augmented Feature Store enhances the traditional feature store by integrat
 
 While the concept of an AI-Augmented Feature Store is innovative, companies like Tecton, Feast, and Databricks are building foundational feature store solutions. Incorporating AI capabilities into these solutions can lead to the next generation of intelligent ML development platforms.
 
-### Using pypi package 
 
-pip install ai-feature-store
-
-```python 
-# Importing from the ai-feature-store package
-from ai_feature_store.app.data_ingestion import load_data
-from ai_feature_store.app.models import rank_features
-from ai_feature_store.app.api import app
-from uvicorn import run
-
-# Example: Load data and rank features
-def main():
-    print("Loading data...")
-    data = load_data()
-    print("Data loaded successfully:")
-    print(data.head())
-
-    # Splitting features and target
-    X, y = data.iloc[:, :-1], data['target']
-    
-    print("\nRanking features...")
-    feature_ranking = rank_features(X, y)
-    print("Feature ranking completed:")
-    print(feature_ranking)
-
-    # Running the FastAPI server
-    print("\nStarting FastAPI server...")
-    run(app, host="127.0.0.1", port=8000)
-
-if __name__ == "__main__":
-    main()
-```
 
 ### Build Docker Image
 docker build -t feature-store .
