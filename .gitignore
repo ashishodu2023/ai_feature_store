@@ -1,3 +1,4 @@
 .venv
 build/
 dist/
+ai_feature_store.egg-info/
