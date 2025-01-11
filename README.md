@@ -1,5 +1,9 @@
 # AI-Augmented Feature Store
 
+
+[![codecov](https://codecov.io/gh/ashishodu2023/ai_feature_store/branch/main/graph/badge.svg)](https://codecov.io/gh/ashishodu2023/ai_feature_store)
+
+
 ## Concept
 
 An AI-Augmented Feature Store enhances the traditional feature store by integrating AI capabilities to streamline and optimize the feature engineering process. This system automatically discovers, ranks, and recommends the most relevant features for machine learning (ML) models, helping data scientists and engineers build more accurate models faster.
