@@ -7,3 +7,5 @@ google-cloud-bigtable
 wheel
 twine
 codecov
+pytest 
+pytest-cov
